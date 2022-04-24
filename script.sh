@@ -14,3 +14,14 @@ rm -r data/train.csv
 rm -r data/test.csv
 
 echo "Done processing! :)"
+
+echo "Beginning to run various models. Starting with random forest regression..."
+python src/random_forest.py
+
+echo "Now running support vector regression..."
+python src/support_vector.py
+
+echo "Now running decision tree regression..."
+python src/decision_tree.py
+
+echo "All done! :)"
