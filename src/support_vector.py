@@ -16,4 +16,4 @@ regressor = SVR(kernel = 'rbf')
 regressor.fit(X_train, y_train)
 
 y_pred = sc_y.inverse_transform(regressor.predict(sc_X.transform(X_test)).reshape(-1,1))
-print("The R2 score for random forest regression is " + str(r2_score(y_test, y_pred)))
+print("The R2 score for support vector regression is " + str(r2_score(y_test, y_pred)))

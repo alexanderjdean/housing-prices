@@ -9,7 +9,7 @@ CATEGORICAL_INDICES = [1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20,
                        38, 39, 40, 41, 52, 54, 56, 57, 59, 62, 63, 64, 71, 
                        72, 73, 77, 78]
 ROW_TEST_INDEX_START = 1460
-NAN_INDICES = [2, 25, 58]
+NAN_INDICES = [2, 25, 33, 35, 36, 37, 46, 47, 49, 58, 60, 61, 65, 66]
 
 train = pd.read_csv('data/train.csv')
 test = pd.read_csv('data/test.csv')

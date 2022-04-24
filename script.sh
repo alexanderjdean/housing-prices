@@ -24,4 +24,7 @@ python src/support_vector.py
 echo "Now running decision tree regression..."
 python src/decision_tree.py
 
+echo "Now running XGBoost regression..."
+python src/xgb.py
+
 echo "All done! :)"
